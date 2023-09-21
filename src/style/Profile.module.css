@@ -1,0 +1,50 @@
+.profileContainer {
+  height: 100%;
+  overflow: auto;
+  padding-top: 5em;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em 1em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.actionBtn svg {
+  font-size: 1.5em;
+  margin-right: 0.6em;
+}
+.img {
+  width: 80px;
+  border-radius: 2.2em;
+}
+.profileContainer h4 {
+  font-size: 1.5em;
+  color: var(--textColor);
+  margin: 0.5em 0 0.1em 0;
+}
+.profileContainer p {
+  font-size: 1.1em;
+  color: #928b8b;
+  margin: 0;
+}
+.profileContainer .follow {
+  display: flex;
+  margin-bottom: 2.5em;
+}
+.profileContainer .follow > p:first-child {
+  margin-right: 2.5em;
+}
+.profileContainer .follow p span {
+  font-weight: 500;
+  font-size: 3em;
+  color: black;
+}
+.profileContainer button {
+  border: none;
+  background-color: transparent;
+  color: rgb(168, 97, 234);
+}

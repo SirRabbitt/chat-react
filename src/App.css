@@ -1,0 +1,41 @@
+:root {
+  --textColor: rgb(65, 64, 66);
+  --btnGbColor: blue;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  padding: 0;
+  font-size: 1em;
+  font-family: "Netrif Pro";
+}
+button {
+  outline: none !important;
+}
+a {
+  text-decoration: none;
+}
+.primeryBtn {
+  background-color: var(--btnGbColor);
+  color: black;
+  border-radius: 2em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  display: flex;
+}
+.app_layout {
+  background-color: #f2f0e4;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  overflow: hidden;
+}
